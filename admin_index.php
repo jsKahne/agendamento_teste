@@ -3,7 +3,7 @@ session_start();
 
 // Função para verificar se o usuário é admin (exemplo simplificado)
 function isAdmin($user_id) {
-    
+    // Substitua isso pela lógica real para verificar se o usuário é admin
     return ($user_id == 1); // Supondo que o admin tenha user_id 1
 }
 
@@ -26,4 +26,15 @@ if (isset($_SESSION['user_id'])) {
     include('index.php');
 }
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Admin</title>
+</head>
+<body>
+    <h1>Bem-vindo, Administrador!</h1>
+    <!-- Conteúdo específico para a página do admin -->
+</body>
+</html>
